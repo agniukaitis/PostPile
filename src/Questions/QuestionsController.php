@@ -684,7 +684,7 @@ class QuestionsController implements \Anax\DI\IInjectionAware
             }
             $this->questions->save([
                 'id' => $id,
-                'title' => $_SESSION['form-save']['title']['value'],
+                'title' => isset($_SESSION['form-save']['title']['value']) ? $_SESSION['form-save']['title']['value'] : null,
                 'content' => $contentStr,
                 'modified' => $now,
             ]);
