@@ -73,7 +73,7 @@
 </table>
 <?php else : ?>
 <div class="no-content">
-    <p>Aww, There are no users to be displayed... Be the first one to <a href="<?=$this->url->create('questions/ask')?>"><i class="fa fa-pencil-square-o"></i> register</a> a question.<p>
+    <p>Aww, There are no users to be displayed... Be the first one to <a href="<?=$this->url->create('questions/ask')?>"><i class="fa fa-pencil-square-o"></i> register</a> and <a href="<?=$this->url->create('questions/ask')?>"><i class="fa fa-question"></i> ask</a> a a question.<p>
 </div>
 <?php endif; ?>
 
