@@ -28,6 +28,7 @@ class TagsController implements \Anax\DI\IInjectionAware
 
         $all = $this->tags->query('tag, COUNT(*) AS count')
             ->groupBy('tag')
+            ->orderBy('count DESC')
             ->execute();
 
         $this->views->add('tags/view-all', [
