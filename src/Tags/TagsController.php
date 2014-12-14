@@ -40,7 +40,7 @@ class TagsController implements \Anax\DI\IInjectionAware
     {
         $tags = $this->tags->query('tag, COUNT(*) AS tagCount')
             ->groupBy('tag')
-            ->orderBy('tagCount')
+            ->orderBy('tagCount DESC')
             ->limit(4)
             ->execute();
 
