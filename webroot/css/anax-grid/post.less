@@ -1,0 +1,194 @@
+.post{
+    border-bottom: 1px solid @grey;
+    margin-bottom: @magicNumber;
+}
+
+.post tr,
+.post td,
+.post-head tr,
+.post-head td,
+.users-list td {
+    border: none;
+}
+
+.statscontainer {
+    float: left;
+    text-align: center;
+}
+
+.statscontainer div h3 {
+    display: block;
+}
+
+.no-answers {
+    background: #eee;
+    color: #9a4444;
+}
+
+.has-answers {
+    background: #75845c;
+    color: #fff;
+}
+
+.no-answers,
+.has-answers {
+    min-width: 70px;
+    width: 70px;
+    padding: 7px 5px;
+    margin: 0 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+.summary {
+    overflow: hidden;
+    padding: 7px;
+}
+
+.vote-cell{
+    min-width: 60px;
+    vertical-alignment: top;
+}
+
+.post-cell,
+.comments,
+.post-head {
+    width: 100%;
+}
+
+.post-header,
+.answer-count-header {
+    margin-bottom: 0;
+}
+
+.answer-count-header {
+    font-weight: bold;
+}
+
+.post-text{}
+.post-taglist{}
+.post-tools{
+    width: 75%;
+}
+
+.quadrant {
+    width: 235px;
+}
+
+.post-signature {
+    background: #e0eaf1;
+    padding-left: 5px;
+    padding-top: 2px;
+    text-align: left;
+    vertical-align: top;
+    width: 200px;
+    max-width: 200px;
+    font-size: 0.9em;
+    margin-top: @magicNumber/2;
+    margin-bottom: @magicNumber/2;
+}
+
+.user-info {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 200px;
+    max-width: 200px;
+}
+
+.user-gravatar,
+.user-details {
+    float: left;
+}
+
+.user-details{
+    margin-left: 5px;
+    width: 163px;
+    max-width: 163;
+}
+
+.comment-time{
+    color: @dark-grey;
+}
+
+.comment-tools{
+    width: 50px;
+}
+
+.comments{}
+.comments tr,
+.users-list tr {
+    border-top: 1px dotted @grey;
+    border-bottom: 1px dotted @grey;
+}
+
+.post a,
+.users-list a {
+    text-decoration: none;
+    color: #07c;
+}
+
+.post a:hover,
+.users-list a:hover {
+  text-decoration: underline;
+}
+
+/*.post a:visited {
+  color: #4a6b82;
+}*/
+
+.tags-table {
+    width: 100%;
+}
+
+.tags-table tr {
+    border-bottom: 1px dotted @grey;
+    width: 100%;
+}
+
+.tags-table td{
+    border: none;
+     width: 25%;
+}
+
+.taglist .tag {
+    display: inline-block;
+    padding: 6px 8px;
+    margin: 15px 2px 15px 0;
+    background: #444;
+    color: #fff;
+    border-bottom: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.taglist .tag:hover {
+    background: #333232;
+    text-decoration: none;
+}
+
+.taglist .tag:visited {
+    color: #fff;
+}
+
+.accepted i {
+    font-size: 2em;
+}
+
+.accepted .yes {
+    color: #46b525;
+    text-decoration: none;
+}
+
+.accepted .no {
+    color: @grey;
+    text-decoration: none;
+}
+
+.accepted .no:hover {
+    color: #46b525;
+    text-decoration: none;
+}

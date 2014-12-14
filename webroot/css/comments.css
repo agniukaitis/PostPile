@@ -1,0 +1,64 @@
+#comments {
+
+}
+
+.post {
+    clear: both;
+}
+
+#comments ul {
+  list-style: none; 
+  margin: 0; 
+  padding: 0;
+}
+
+#comments li {
+    border-top: 1px solid #aaa;
+    margin: 10px 0;
+    min-height: 80px;
+    padding: 10px;
+}
+
+.post-header {
+    margin-left: 80px;
+}
+
+.post-name{
+    font-weight: bold;
+}
+
+.post-id{
+    color: #777;
+}
+
+.myButton {
+    border: none;
+    min-width: 55px;
+    height: 25px;
+    background: #ccc;
+}
+
+.myButton:hover {
+    background: #ddd;
+}
+
+.comment-form {
+    clear: both;
+}
+
+.comment-form fieldset {
+    border: 1px solid #aaa;
+}
+
+.comment-form input[type='text'] {
+    padding: 5px;
+    width: 400px;
+
+}
+
+.comment-form textarea {
+    resize: vertical;
+    width: 400px;
+    height: 150px;
+    padding: 5px;
+}
