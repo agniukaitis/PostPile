@@ -160,6 +160,7 @@ class UsersController implements \Anax\DI\IInjectionAware
 
         // Prepare the page content
         $this->views->add('users/form', [
+            'header' => 'Register',
             'main' => $form->getHTML(),
         ], 'main-wide');
 
