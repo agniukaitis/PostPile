@@ -75,6 +75,16 @@ $app->router->add('login', function() use ($app) {
 
 });
 
+// Logout route
+$app->router->add('logout', function() use ($app) {
+
+    $app->dispatcher->forward([
+        'controller' => 'users',
+        'action'     => 'logout',
+    ]);
+
+});
+
 // Ask route
 $app->router->add('ask', function() use ($app) {
 
