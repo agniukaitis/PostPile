@@ -86,7 +86,7 @@ $app->router->add('ask', function() use ($app) {
 });
 
 // Source route
-$app->router->add('source', function() use ($app) {
+/*$app->router->add('source', function() use ($app) {
     $app->theme->addStylesheet('css/source.css');
     $app->theme->setTitle("Source");
  
@@ -99,7 +99,7 @@ $app->router->add('source', function() use ($app) {
     $app->views->add('default/source', [
         'content' => $source->View(),
     ], 'main-wide');
-});
+});*/
 
 // Check for matching routes and dispatch to controller/handler of route
 $app->router->handle();
