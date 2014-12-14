@@ -833,7 +833,7 @@ class QuestionsController implements \Anax\DI\IInjectionAware
             'type' => ['varchar(80)', 'not null'],
             'belongTo' => ['integer'],
             'commentTo' => ['integer'],
-            'title' => ['varchar(80)'],
+            'title' => ['varchar(300)'],
             'content' => ['text'],
             'accepted' => ['tinyint(1)'],
             'posted' => ['datetime'],
